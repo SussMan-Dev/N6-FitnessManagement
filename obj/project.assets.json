@@ -83,19 +83,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\OS\\.nuget\\packages\\": {}
+    "C:\\Users\\ACER\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "e:\\FItnessManagement\\FItnessManagement.csproj",
+      "projectUniqueName": "D:\\N6-FitnessManagement\\FItnessManagement.csproj",
       "projectName": "FItnessManagement",
-      "projectPath": "e:\\FItnessManagement\\FItnessManagement.csproj",
-      "packagesPath": "C:\\Users\\OS\\.nuget\\packages\\",
-      "outputPath": "e:\\FItnessManagement\\obj\\",
+      "projectPath": "D:\\N6-FitnessManagement\\FItnessManagement.csproj",
+      "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
+      "outputPath": "D:\\N6-FitnessManagement\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\OS\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
