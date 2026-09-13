@@ -1,6 +1,36 @@
 @FItnessManagement_HostAddress = http://localhost:5165
+@userId = 1
 
-GET {{FItnessManagement_HostAddress}}/weatherforecast/
+GET {{FItnessManagement_HostAddress}}/user
 Accept: application/json
 
 ###
+
+GET {{FItnessManagement_HostAddress}}/user/{{userId}}
+Accept: application/json
+
+###
+
+POST {{FItnessManagement_HostAddress}}/user
+Content-Type: application/json
+
+{
+  "fullName": "Nguyen Van A",
+  "email": "vana@example.com",
+  "phoneNumber": "0901234567"
+}
+
+###
+
+PUT {{FItnessManagement_HostAddress}}/user/{{userId}}
+Content-Type: application/json
+
+{
+  "fullName": "Nguyen Van A Updated",
+  "email": "vana.updated@example.com",
+  "phoneNumber": "0912345678"
+}
+
+###
+
+DELETE {{FItnessManagement_HostAddress}}/user/{{userId}}
