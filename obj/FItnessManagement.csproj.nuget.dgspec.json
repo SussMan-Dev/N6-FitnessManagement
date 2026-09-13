@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\FItnessManagement\\FItnessManagement.csproj": {}
+    "E:\\N6-FitnessManagement\\FItnessManagement.csproj": {}
   },
   "projects": {
-    "E:\\FItnessManagement\\FItnessManagement.csproj": {
+    "E:\\N6-FitnessManagement\\FItnessManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\FItnessManagement\\FItnessManagement.csproj",
+        "projectUniqueName": "E:\\N6-FitnessManagement\\FItnessManagement.csproj",
         "projectName": "FItnessManagement",
-        "projectPath": "E:\\FItnessManagement\\FItnessManagement.csproj",
+        "projectPath": "E:\\N6-FitnessManagement\\FItnessManagement.csproj",
         "packagesPath": "C:\\Users\\OS\\.nuget\\packages\\",
-        "outputPath": "E:\\FItnessManagement\\obj\\",
+        "outputPath": "E:\\N6-FitnessManagement\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\OS\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -49,6 +49,16 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[10.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[9.0.0, )"
             }
           },
           "imports": [
